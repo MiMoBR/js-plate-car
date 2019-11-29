@@ -1,0 +1,9 @@
+Source https://igorescobar.github.io/jQuery-Mask-Plugin/
+files attach here
+
+
+$('#search-bar').mask('00-00-00', {'translation': {0: {pattern: /[0-9*a-z*A-Z]/}}});
+
+$('#search-bar').keyup(function(){
+  $(this).val( $(this).val().toUpperCase() );
+});
